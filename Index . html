@@ -1,0 +1,108 @@
+ <!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escolha como comprar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: linear-gradient(135deg, #00c853, #00e676);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 25px;
+  padding: 35px 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #111;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.btn-loja {
+  background: #00c853;
+  color: white;
+}
+
+.btn-loja:hover {
+  background: #00b248;
+}
+
+.btn-whats {
+  background: #25d366;
+  color: white;
+}
+
+.btn-whats:hover {
+  background: #1ebe5d;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="https://logodownload.org/wp-content/uploads/2021/02/ton-logo.png" alt="Ton Logo"><h1>Escolha como deseja comprar 👇</h1>
+
+<p>
+  Aproveite taxas especiais, Pix 0% e entrega rápida.
+</p>
+
+<a class="btn btn-loja" href="https://www.ton.com.br" target="_blank">
+  🛒 Comprar direto na loja
+</a>
+
+<a class="btn btn-whats" href="https://wa.me/5598991901461?text=Olá,%20quero%20saber%20mais%20sobre%20as%20maquininhas%20Ton" target="_blank">
+  👨‍💼 Comprar com representante
+</a>
+
+<div class="info">
+  Atendimento rápido • Suporte humanizado • Condição especial
+</div>
+
+  </div>
+</body>
+</html>
